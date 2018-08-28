@@ -1,0 +1,19 @@
+<nav class="navbar fixed-top navbar-light bg-white">
+  <div class="container">
+    <div class="logo"></div>
+    <div>
+      <div class="add-post" data-toggle="modal" data-target="#exampleModal"></div>
+
+      <a href="#" class="sair" (click)="sair()"> Sair</a>
+
+    </div>
+  </div>
+</nav>
+
+<br />
+<br />
+<br />
+<div class="container">
+  <app-publicacoes></app-publicacoes>
+  <app-incluir-publicacao (atualizarTimeLine)="atualizarTimeLine()"></app-incluir-publicacao>
+</div>
